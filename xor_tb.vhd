@@ -8,7 +8,7 @@ end xor_tb;
 --! @brief 
 architecture test of xor_tb is
 
-	component xor
+	component xor1
 		port
 		(
 			xor_in1 : in std_ulogic;
@@ -24,7 +24,7 @@ architecture test of xor_tb is
 
 begin
 	--! galf adder instatiation
-	inst_xor_logic : xor port map (xor_in1=>xor_in1,xor_in2=>xor_in2,xor_out=>xor_out);
+	inst_xor_logic : xor1 port map (xor_in1=>xor_in1,xor_in2=>xor_in2,xor_out=>xor_out);
 
 	process begin
 
