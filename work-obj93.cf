@@ -1,7 +1,0 @@
-v 3
-file . "xor.vhd" "20190317204946.000" "20190317215817.263":
-  entity xor1 at 1( 0) + 0 on 23;
-  architecture rtl of xor1 at 12( 174) + 0 on 24;
-file . "xor_tb.vhd" "20190317205806.000" "20190317215817.264":
-  entity xor_tb at 2( 29) + 0 on 25;
-  architecture test of xor_tb at 9( 123) + 0 on 26;
